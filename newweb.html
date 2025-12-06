@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solt | UI/UX & Brand Designer</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Fonts: Playfair Display (Serif) & Inter (Sans) to match the elegant vibe -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,800;1,400&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'off-white': '#F2F2F2',
+                        'charcoal': '#1A1A1A',
+                        'smoke': '#F5F5F5',
+                        'mid-grey': '#888888',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom Morphing & Animations */
+        body {
+            background-color: #F2F2F2;
+            color: #1A1A1A;
+            overflow-x: hidden;
+            cursor: default;
+        }
+
+        /* Image Morphing Effect */
+        .morph-image {
+            transition: border-radius 1s cubic-bezier(0.4, 0, 0.2, 1), transform 0.5s ease;
+            border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        }
+        .morph-image:hover {
+            border-radius: 50%;
+            transform: scale(1.02);
+        }
+
+        /* Smooth Reveal Animation */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Interactive Buttons */
+        .btn-interactive {
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-interactive::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            background-color: #333;
+            transition: width 0.3s ease;
+            z-index: -1;
+        }
+        .btn-interactive:hover::after {
+            width: 100%;
+        }
+        .btn-interactive:hover {
+            color: white;
+            padding-left: 2rem;
+        }
+
+        /* Accordion Styles */
+        details > summary {
+            list-style: none;
+        }
+        details > summary::-webkit-details-marker {
+            display: none;
+        }
+        details[open] summary ~ * {
+            animation: sweep .5s ease-in-out;
+        }
+        @keyframes sweep {
+            0%    {opacity: 0; transform: translateY(-10px)}
+            100%  {opacity: 1; transform: translateY(0)}
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #F2F2F2;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #ccc;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #888;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-black selection:text-white">
+
+    <!-- Floating Menu Button -->
+    <div class="fixed top-6 right-6 z-50">
+        <button class="sound-click btn-interactive bg-black text-white px-6 py-2 rounded-full text-sm font-medium tracking-wide flex items-center gap-2 hover:bg-gray-800 shadow-lg">
+            MENU <span class="text-xs">☰</span>
+        </button>
+    </div>
+
+    <!-- MAIN CONTAINER -->
+    <main class="max-w-[1400px] mx-auto p-6 md:p-12">
+
+        <!-- HEADER / HERO SECTION -->
+        <header class="grid grid-cols-1 lg:grid-cols-12 gap-12 min-h-[90vh] items-center mb-24">
+
+            <!-- Left Text Content -->
+            <div class="lg:col-span-5 flex flex-col justify-center reveal">
+                <div class="flex items-center gap-2 mb-8">
+                    <div class="w-2 h-2 bg-black rounded-full"></div>
+                    <span class="text-sm font-bold tracking-widest uppercase">Dominic</span>
+                </div>
+
+                <p class="text-xl text-mid-grey mb-2 font-serif italic">Hey, I'm Solt,</p>
+                <h1 class="text-6xl md:text-8xl font-serif font-medium leading-[0.9] mb-8 text-black">
+                    A UI/UX <br>
+                    <span class="italic font-light">& Brand</span> <br>
+                    DESIGNER
+                </h1>
+
+                <p class="text-mid-grey text-lg max-w-md leading-relaxed mb-10">
+                    Transforming ideas into stunning visuals — UI/UX and brand design that captivates, engages, and delivers results in a monochromatic world.
+                </p>
+
+                <button class="sound-click btn-interactive border border-black text-black w-fit px-8 py-3 rounded-full flex items-center gap-4 group">
+                    CONTACT ME
+                    <div class="w-6 h-6 bg-black text-white rounded-full flex items-center justify-center transition-transform group-hover:rotate-45">
+                        →
+                    </div>
+                </button>
+            </div>
+
+            <!-- Right Image Content -->
+            <div class="lg:col-span-7 relative h-full flex items-center justify-center reveal delay-200">
+                <div class="relative w-full aspect-square max-w-xl">
+                    <!-- Background aesthetic blob -->
+                    <div class="absolute inset-0 bg-gray-200 rounded-full blur-3xl opacity-50 transform translate-x-10 translate-y-10"></div>
+
+                    <!-- Main Profile Image -->
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop&sat=-100"
+                         alt="Portrait"
+                         class="sound-hover morph-image w-full h-full object-cover shadow-2xl grayscale contrast-110 relative z-10">
+                </div>
+            </div>
+        </header>
+
+        <!-- SERVICES GRID (Like the reference) -->
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-32 border-t border-gray-300 pt-12 reveal">
+            <div class="hover:bg-white p-4 transition-colors duration-300 rounded-lg">
+                <h3 class="font-bold text-sm uppercase mb-2">User-Centered Design</h3>
+                <p class="text-xs text-mid-grey">Intuitive and engaging experiences tailored for your audience.</p>
+            </div>
+            <div class="hover:bg-white p-4 transition-colors duration-300 rounded-lg">
+                <h3 class="font-bold text-sm uppercase mb-2">Brand Identity & Strategy</h3>
+                <p class="text-xs text-mid-grey">Strong visual storytelling that makes your brand unforgettable.</p>
+            </div>
+            <div class="hover:bg-white p-4 transition-colors duration-300 rounded-lg">
+                <h3 class="font-bold text-sm uppercase mb-2">Responsive & Modern UI</h3>
+                <p class="text-xs text-mid-grey">Pixel-perfect designs optimized for all devices.</p>
+            </div>
+            <div class="hover:bg-white p-4 transition-colors duration-300 rounded-lg">
+                <h3 class="font-bold text-sm uppercase mb-2">Seamless Prototyping</h3>
+                <p class="text-xs text-mid-grey">Interactive mockups to visualize development.</p>
+            </div>
+        </section>
+
+        <!-- TRUSTED BY SECTION -->
+        <section class="mb-32 reveal">
+            <h4 class="font-bold uppercase mb-6 tracking-wider">Trusted By</h4>
+            <div class="grid grid-cols-2 md:grid-cols-4 border border-gray-300">
+                <!-- Logos (Simulated with text/icons) -->
+                <div class="h-24 border-r border-b md:border-b-0 border-gray-300 flex items-center justify-center text-mid-grey hover:bg-white transition-colors">
+                    <span class="font-bold flex items-center gap-2"><span class="w-4 h-4 rounded-full bg-gray-400"></span> Frame Blox</span>
+                </div>
+                <div class="h-24 border-r border-b md:border-b-0 border-gray-300 flex items-center justify-center text-mid-grey hover:bg-white transition-colors">
+                    <span class="font-bold flex items-center gap-2"><span class="w-4 h-4 border border-gray-400 rounded-full"></span> Supa Blox</span>
+                </div>
+                <div class="h-24 border-r border-b md:border-b-0 border-gray-300 flex items-center justify-center text-mid-grey hover:bg-white transition-colors">
+                    <span class="font-bold flex items-center gap-2">▼ Hype Blox</span>
+                </div>
+                <div class="h-24 border-gray-300 flex items-center justify-center text-mid-grey hover:bg-white transition-colors">
+                    <span class="font-bold flex items-center gap-2">● Ultra Blox</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SPLIT SECTION: DETAILS & PROCESS -->
+        <section class="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-24">
+
+            <!-- Left Side: Stats & Info -->
+            <div class="lg:col-span-5 bg-smoke p-8 md:p-12 rounded-2xl reveal">
+                <h2 class="text-4xl font-serif font-bold mb-8 leading-tight">CRAFTING INTUITIVE & IMPACTFUL DESIGNS</h2>
+                <p class="text-mid-grey text-sm mb-12">
+                    I blend creativity and strategy to design intuitive interfaces and compelling brand identities. From UX research to visual storytelling.
+                </p>
+
+                <div class="space-y-8">
+                    <!-- Stat Item -->
+                    <div class="flex items-center justify-between border-b border-gray-300 pb-4">
+                        <div>
+                            <span class="block text-3xl font-bold">98%</span>
+                            <span class="text-xs text-mid-grey uppercase">Branding</span>
+                        </div>
+                        <div>
+                            <span class="block text-3xl font-bold">85%</span>
+                            <span class="text-xs text-mid-grey uppercase">UX Design</span>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between border-b border-gray-300 pb-4">
+                        <div>
+                            <span class="block text-3xl font-bold">92%</span>
+                            <span class="text-xs text-mid-grey uppercase">UX Research</span>
+                        </div>
+                        <div>
+                            <span class="block text-3xl font-bold">100%</span>
+                            <span class="text-xs text-mid-grey uppercase">Commitment</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-12">
+                     <button class="sound-click bg-black text-white px-8 py-3 rounded-full flex items-center gap-2 hover:bg-gray-800 transition-colors text-sm">
+                        CONTACT ME <span>→</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Right Side: Process Dropdowns & Image -->
+            <div class="lg:col-span-7 flex flex-col justify-between reveal delay-200">
+
+                <div class="mb-12">
+                    <h2 class="text-4xl font-serif font-bold mb-8 uppercase leading-none">A Streamlined <br> Process For <br> Exceptional Design</h2>
+
+                    <!-- Interactive Dropdowns -->
+                    <div class="space-y-6">
+                        <details class="group border-b border-gray-300 pb-4 sound-click cursor-pointer" open>
+                            <summary class="flex justify-between items-center font-bold uppercase tracking-wide text-sm hover:text-gray-600">
+                                01. Discover & Research
+                                <span class="group-open:rotate-180 transition-transform">▼</span>
+                            </summary>
+                            <p class="text-mid-grey text-sm mt-4 pl-4 border-l-2 border-black">
+                                Understanding user needs, market trends, and brand goals to lay a strong foundation for the project.
+                            </p>
+                        </details>
+
+                        <details class="group border-b border-gray-300 pb-4 sound-click cursor-pointer">
+                            <summary class="flex justify-between items-center font-bold uppercase tracking-wide text-sm hover:text-gray-600">
+                                02. Design & Prototype
+                                <span class="group-open:rotate-180 transition-transform">▼</span>
+                            </summary>
+                            <p class="text-mid-grey text-sm mt-4 pl-4 border-l-2 border-black">
+                                Crafting intuitive interfaces and visual identities with wireframes, mockups, and high-fidelity prototypes.
+                            </p>
+                        </details>
+
+                        <details class="group border-b border-gray-300 pb-4 sound-click cursor-pointer">
+                            <summary class="flex justify-between items-center font-bold uppercase tracking-wide text-sm hover:text-gray-600">
+                                03. Refine & Deliver
+                                <span class="group-open:rotate-180 transition-transform">▼</span>
+                            </summary>
+                            <p class="text-mid-grey text-sm mt-4 pl-4 border-l-2 border-black">
+                                Testing, iterating, and finalizing designs for a seamless, polished experience ready for launch.
+                            </p>
+                        </details>
+                    </div>
+                </div>
+
+                <div class="relative h-[400px] overflow-hidden rounded-2xl">
+                    <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=1000&auto=format&fit=crop&sat=-100"
+                         alt="Secondary Portrait"
+                         class="sound-hover w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 transform hover:scale-105">
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER / GALLERY GRID -->
+        <section class="reveal">
+            <h2 class="text-4xl font-serif font-bold mb-8 w-full md:w-1/2">CRAFTING MEANINGFUL BRANDS & INTUITIVE EXPERIENCES</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 h-96">
+                <div class="overflow-hidden rounded-lg bg-gray-200">
+                    <img src="https://images.unsplash.com/photo-1550614000-4b9519e07d2f?q=80&w=600&auto=format&fit=crop&sat=-100" class="w-full h-full object-cover hover:scale-110 transition-transform duration-700 opacity-80 hover:opacity-100">
+                </div>
+                <div class="overflow-hidden rounded-lg bg-gray-300 md:col-span-2">
+                    <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop&sat=-100" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700 opacity-80 hover:opacity-100">
+                </div>
+                <div class="overflow-hidden rounded-lg bg-gray-200">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=600&auto=format&fit=crop&sat=-100" class="w-full h-full object-cover hover:scale-110 transition-transform duration-700 opacity-80 hover:opacity-100">
+                </div>
+            </div>
+        </section>
+
+        <footer class="mt-24 py-12 border-t border-gray-300 text-center text-sm text-mid-grey">
+            <p>&copy; 2024 Solt Design. All Rights Reserved.</p>
+        </footer>
+
+    </main>
+
+    <!-- JavaScript for Interactions & Sound -->
+    <script>
+        // 1. Web Audio API for Simple Sounds (No external files)
+        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+
+        function playTone(freq, type, duration) {
+            if (audioCtx.state === 'suspended') audioCtx.resume();
+            const osc = audioCtx.createOscillator();
+            const gainNode = audioCtx.createGain();
+
+            osc.type = type;
+            osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+
+            gainNode.gain.setValueAtTime(0.02, audioCtx.currentTime); // Low volume
+            gainNode.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + duration);
+
+            osc.connect(gainNode);
+            gainNode.connect(audioCtx.destination);
+
+            osc.start();
+            osc.stop(audioCtx.currentTime + duration);
+        }
+
+        // Hover Sound (High pitch, short sine wave)
+        function playHoverSound() {
+            playTone(400, 'sine', 0.1);
+        }
+
+        // Click Sound (Lower pitch, triangle wave)
+        function playClickSound() {
+            playTone(200, 'triangle', 0.15);
+        }
+
+        // Attach listeners
+        document.querySelectorAll('.sound-click').forEach(el => {
+            el.addEventListener('mousedown', playClickSound);
+        });
+
+        document.querySelectorAll('.sound-hover, a, button, summary').forEach(el => {
+            el.addEventListener('mouseenter', playHoverSound);
+        });
+
+
+        // 2. Scroll Reveal Animation
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                }
+            }
+        }
+        window.addEventListener("scroll", reveal);
+        // Trigger once on load
+        reveal();
+    </script>
+</body>
+</html>
