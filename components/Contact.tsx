@@ -1,6 +1,8 @@
 'use client';
 
-import { useState } from 'react';
+import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
+import { motion } from 'framer-motion';
 
 export default function Contact() {
     const [formData, setFormData] = useState({
@@ -9,10 +11,41 @@ export default function Contact() {
         message: '',
     });
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        const mailtoLink = `mailto:your.email@example.com?subject=Portfolio Contact from ${formData.name}&body=${formData.message}%0D%0A%0D%0AFrom: ${formData.name}%0D%0AEmail: ${formData.email}`;
-        window.location.href = mailtoLink;
+        setIsSubmitting(true);
+        setSubmitStatus('idle');
+
+        try {
+            // EmailJS configuration
+            // You'll need to replace these with your actual EmailJS credentials
+            const serviceId = 'service_4y39mid';
+            const templateId = 'template_sg3l0ak';
+            const publicKey = 'jV09gRvRyABD43Odt';
+
+            await emailjs.send(
+                serviceId,
+                templateId,
+                {
+                    from_name: formData.name,
+                    from_email: formData.email,
+                    message: formData.message,
+                    to_email: 'biswajeetrout2006@gmail.com',
+                },
+                publicKey
+            );
+
+            setSubmitStatus('success');
+            setFormData({ name: '', email: '', message: '' }); // Clear form
+        } catch (error) {
+            console.error('Email send failed:', error);
+            setSubmitStatus('error');
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -25,14 +58,26 @@ export default function Contact() {
     return (
         <section id="contact" className="min-h-screen flex items-center justify-center py-20 px-4">
             <div className="max-w-4xl mx-auto w-full">
-                <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">
+                <motion.h2
+                    className="text-4xl md:text-5xl font-bold mb-12 text-center"
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.6 }}
+                >
                     Get In <span className="text-cyber-green">Touch</span>
-                </h2>
+                </motion.h2>
 
                 <div className="grid md:grid-cols-2 gap-8">
                     {/* Contact Form */}
-                    <div className="bg-card p-8 rounded-lg border border-gray-dark">
-                        <h3 className="text-2xl font-semibold mb-6 text-cyber-green">Send a Message</h3>
+                    <motion.div
+                        className="bg-card p-8 rounded-lg border border-gray-dark"
+                        initial={{ opacity: 0, x: -50 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.6, delay: 0.2 }}
+                    >
+                        <h3 className="text-2xl font-semibold mb-6 text-cyber-green">Ring me up</h3>
                         <form onSubmit={handleSubmit} className="space-y-4">
                             <div>
                                 <label htmlFor="name" className="block text-sm font-medium text-gray-light mb-2">
@@ -79,32 +124,60 @@ export default function Contact() {
                                     placeholder="Your message..."
                                 />
                             </div>
-                            <button
+                            <motion.button
                                 type="submit"
-                                className="w-full px-6 py-3 bg-cyber-green text-background font-semibold rounded-lg hover:bg-white transition-all duration-300 transform hover:scale-105"
+                                disabled={isSubmitting}
+                                className="w-full px-6 py-3 bg-cyber-green text-background font-semibold rounded-lg hover:bg-white transition-all duration-300 transform disabled:opacity-50 disabled:cursor-not-allowed"
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
                             >
-                                Send Message
-                            </button>
+                                {isSubmitting ? 'Sending...' : 'Send Message'}
+                            </motion.button>
+
+                            {submitStatus === 'success' && (
+                                <motion.p
+                                    className="text-cyber-green text-sm mt-2"
+                                    initial={{ opacity: 0, y: 10 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                >
+                                    ✓ Message sent successfully!
+                                </motion.p>
+                            )}
+                            {submitStatus === 'error' && (
+                                <motion.p
+                                    className="text-red-500 text-sm mt-2"
+                                    initial={{ opacity: 0, y: 10 }}
+                                    animate={{ opacity: 1, y: 0 }}
+                                >
+                                    ✗ Failed to send. Please try again or email directly.
+                                </motion.p>
+                            )}
                         </form>
-                    </div>
+                    </motion.div>
 
                     {/* Contact Information */}
                     <div className="space-y-6">
-                        <div className="bg-card p-8 rounded-lg border border-gray-dark hover:border-cyber-green transition-all duration-300">
+                        <motion.div
+                            className="bg-card p-8 rounded-lg border border-gray-dark hover:border-cyber-green transition-all duration-300 h-full"
+                            initial={{ opacity: 0, x: 50 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.6, delay: 0.4 }}
+                        >
                             <h3 className="text-2xl font-semibold mb-6 text-cyber-green">Contact Information</h3>
                             <div className="space-y-4">
                                 <div className="flex items-start">
                                     <span className="text-cyber-green mr-3 mt-1">📧</span>
                                     <div>
                                         <p className="text-sm text-gray-light">Email</p>
-                                        <p className="text-white">your.email@example.com</p>
+                                        <p className="text-white">biswajeetrout2006@gmail.com</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start">
                                     <span className="text-cyber-green mr-3 mt-1">📍</span>
                                     <div>
                                         <p className="text-sm text-gray-light">Location</p>
-                                        <p className="text-white">India</p>
+                                        <p className="text-white">Thane,India</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start">
@@ -115,14 +188,7 @@ export default function Contact() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div className="bg-card p-8 rounded-lg border border-gray-dark">
-                            <p className="text-gray-light text-sm">
-                                💡 <span className="text-cyber-green">Note:</span> Update your email in{' '}
-                                <code className="bg-background px-2 py-1 rounded text-xs font-mono">components/Contact.tsx</code>
-                            </p>
-                        </div>
+                        </motion.div>
                     </div>
                 </div>
             </div>

@@ -7,7 +7,7 @@ export default function Navigation() {
 
     useEffect(() => {
         const handleScroll = () => {
-            const sections = ['home', 'about', 'projects', 'skills', 'contact', 'blog'];
+            const sections = ['home', 'about', 'projects', 'skills', 'blog', 'contact'];
             const scrollPosition = window.scrollY + 100;
 
             for (const section of sections) {
@@ -38,8 +38,8 @@ export default function Navigation() {
         { id: 'about', label: 'About' },
         { id: 'projects', label: 'Projects' },
         { id: 'skills', label: 'Skills' },
-        { id: 'contact', label: 'Contact' },
         { id: 'blog', label: 'Blog' },
+        { id: 'contact', label: 'Contact' },
     ];
 
     return (
@@ -56,8 +56,8 @@ export default function Navigation() {
                                     key={item.id}
                                     onClick={() => scrollToSection(item.id)}
                                     className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${activeSection === item.id
-                                            ? 'text-cyber-green border-b-2 border-cyber-green'
-                                            : 'text-gray-light hover:text-cyber-green'
+                                        ? 'text-cyber-green border-b-2 border-cyber-green'
+                                        : 'text-gray-light hover:text-cyber-green'
                                         }`}
                                 >
                                     {item.label}

@@ -1,0 +1,686 @@
+[     144ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     147ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     147ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     147ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     147ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     147ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     147ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     147ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     147ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     147ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     147ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     147ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     147ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     147ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     147ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     147ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     147ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     147ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     148ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "undefined". @ http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=bc7b5fa7:6329
+[     148ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     148ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     148ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     148ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     148ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     148ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     148ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     148ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     148ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     148ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     148ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     148ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     148ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     148ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     148ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     148ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     148ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     148ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[     154ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     154ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     154ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     154ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     154ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     154ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     154ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     154ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     154ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     155ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     155ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     155ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     155ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     155ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     155ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     155ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     155ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     155ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     155ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     155ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     155ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     155ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     155ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     155ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     155ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     155ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     155ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     155ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     156ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     156ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     156ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     156ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     156ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     156ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     156ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     156ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     156ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     156ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     156ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     156ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     156ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     156ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     156ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     156ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     156ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     156ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     156ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     156ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     157ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     158ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     158ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     159ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     160ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     160ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     160ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     160ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     160ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     160ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     160ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     160ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     160ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     160ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     160ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     160ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     160ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     161ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     161ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     161ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     161ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     161ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     161ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     161ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     161ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     161ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     161ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     161ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     161ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     161ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     161ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     162ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     162ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     162ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     162ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     162ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     162ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     162ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     162ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     162ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     162ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     162ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     163ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     163ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     163ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     163ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     163ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     163ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     163ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     163ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     163ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     163ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     163ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     163ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     163ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     163ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     163ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     163ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     164ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     164ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     164ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     164ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     164ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     164ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     164ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     164ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     164ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     164ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     164ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     164ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     164ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     164ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[     164ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[     164ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[     164ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[     173ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     173ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     173ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     173ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     173ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     173ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     173ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     173ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     173ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     173ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     173ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     173ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     173ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     173ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     173ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     174ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     175ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     176ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     261ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[     720ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[    1212ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[    1824ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[    1923ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[    2058ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[    2165ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[    2344ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[    2437ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[    2580ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[    2762ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[    2936ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[    3105ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[    3282ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[    3436ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[    3479ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[    3634ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[    3808ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73730ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73733ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73733ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73733ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73733ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73733ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73733ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73733ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73733ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73733ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73733ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73733ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73733ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73733ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73733ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73733ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73733ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73733ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73734ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "undefined". @ http://localhost:3000/node_modules/.vite/deps/framer-motion.js?v=bc7b5fa7:6329
+[   73734ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73734ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73734ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73734ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73734ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73734ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73734ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73734ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73734ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73734ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73734ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73734ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73734ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73734ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73734ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73734ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73734ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73734ms] [WARNING] HTML5 Audio pool exhausted, returning potentially locked audio object. @ http://localhost:3000/node_modules/.vite/deps/howler.js?v=bc7b5fa7:205
+[   73735ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73735ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73736ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73736ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73736ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73736ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73736ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73736ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73736ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73736ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73736ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73736ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73736ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73736ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73736ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73736ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73742ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73742ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73742ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73742ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73742ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73742ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73742ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73742ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73742ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73742ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73742ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73742ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73742ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73742ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73742ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73742ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73743ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73743ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73743ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73743ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73743ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73743ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73743ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73743ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73743ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73743ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73743ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73743ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73743ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73743ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73743ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73743ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73743ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73743ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73744ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73744ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73744ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73744ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73744ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73744ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73744ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73744ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73744ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73744ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73744ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73744ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73744ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73744ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73744ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73745ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73745ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73745ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73745ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73745ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73745ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73745ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73747ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73747ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73747ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73747ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73747ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73747ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73748ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73748ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73748ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73748ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73748ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73748ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73748ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73748ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73748ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73748ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73749ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73749ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73749ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73749ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73749ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73749ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73749ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73749ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73749ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73750ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73750ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73750ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73750ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73750ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73750ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73750ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73750ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73750ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73750ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73750ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73751ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73751ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73751ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73751ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73751ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73751ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73751ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73751ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73751ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73751ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73751ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73751ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73751ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73752ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73752ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73752ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73752ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73752ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73752ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73752ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73752ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73752ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73752ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73752ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73752ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73752ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73753ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73753ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73753ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73753ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73753ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73753ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73753ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_736c29e21e.mp3?filename=sparkle-6014.mp3:0
+[   73753ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_25758200a9.mp3?filename=pop-85462.mp3:0
+[   73753ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_d0a12f2f89.mp3?filename=positive-6014.mp3:0
+[   73753ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.pixabay.com/download/audio/2022/03/15/audio_33fd640ae8.mp3?filename=success-1234.mp3:0
+[   73760ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73760ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73760ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73760ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73760ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73760ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73760ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73760ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73760ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73760ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73760ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73760ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73760ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73760ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73760ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73761ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73762ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73763ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73764ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: sparkle @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: pop @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: complete @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73765ms] [WARNING] Failed to load SFX: success @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73936ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   73979ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   74015ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   74070ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   74141ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   74183ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   74236ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   74284ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   74423ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   74490ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   74562ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   74623ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   74702ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   74754ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   74954ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   75050ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   75129ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66
+[   75230ms] [WARNING] Failed to load SFX: click @ http://localhost:3000/src/hooks/useAudioManager.ts:66

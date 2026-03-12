@@ -1,26 +1,61 @@
+'use client';
+
+import { motion } from 'framer-motion';
+
 export default function About() {
     return (
         <section id="about" className="min-h-screen flex items-center justify-center py-20 px-4">
             <div className="max-w-4xl mx-auto">
-                <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center">
+                <motion.h2
+                    className="text-4xl md:text-5xl font-bold mb-8 text-center"
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.6 }}
+                >
                     About <span className="text-cyber-green">Me</span>
-                </h2>
+                </motion.h2>
 
-                <div className="bg-card p-8 rounded-lg border border-gray-dark hover:border-cyber-green transition-all duration-300">
-                    <p className="text-lg text-gray-light mb-6 leading-relaxed">
-                        I'm a passionate BTech Computer Science student diving deep into the world of cybersecurity.
+                <motion.div
+                    className="bg-card p-8 rounded-lg border border-gray-dark hover:border-cyber-green transition-all duration-300"
+                    initial={{ opacity: 0, scale: 0.95 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, delay: 0.2 }}
+                >
+                    <motion.p
+                        className="text-lg text-gray-light mb-6 leading-relaxed"
+                        initial={{ opacity: 0, x: -20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.4 }}
+                    >
+                        I&apos;m a passionate BTech Computer Science student diving deep into the world of cybersecurity.
                         My focus is on building a strong foundation in C++, network security principles, and understanding
                         system vulnerabilities.
-                    </p>
+                    </motion.p>
 
-                    <p className="text-lg text-gray-light mb-6 leading-relaxed">
-                        I'm actively seeking internships and projects to apply my knowledge in real-world scenarios,
+                    <motion.p
+                        className="text-lg text-gray-light mb-6 leading-relaxed"
+                        initial={{ opacity: 0, x: -20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.5 }}
+                    >
+                        I&apos;m actively seeking internships and projects to apply my knowledge in real-world scenarios,
                         where I can contribute to securing digital infrastructure and learn from experienced professionals
                         in the field.
-                    </p>
+                    </motion.p>
 
                     <div className="grid md:grid-cols-2 gap-6 mt-8">
-                        <div className="bg-background p-6 rounded-lg border border-gray-dark">
+                        <motion.div
+                            className="bg-background p-6 rounded-lg border border-gray-dark"
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ delay: 0.6 }}
+                            whileHover={{ scale: 1.02 }}
+                        >
                             <h3 className="text-xl font-semibold text-cyber-green mb-3 flex items-center">
                                 <span className="mr-2">🎯</span> Current Focus
                             </h3>
@@ -38,9 +73,16 @@ export default function About() {
                                     <span>System Vulnerability Analysis</span>
                                 </li>
                             </ul>
-                        </div>
+                        </motion.div>
 
-                        <div className="bg-background p-6 rounded-lg border border-gray-dark">
+                        <motion.div
+                            className="bg-background p-6 rounded-lg border border-gray-dark"
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ delay: 0.7 }}
+                            whileHover={{ scale: 1.02 }}
+                        >
                             <h3 className="text-xl font-semibold text-cyber-green mb-3 flex items-center">
                                 <span className="mr-2">🎓</span> Academic Status
                             </h3>
@@ -58,9 +100,9 @@ export default function About() {
                                     <span>Actively seeking internship opportunities</span>
                                 </li>
                             </ul>
-                        </div>
+                        </motion.div>
                     </div>
-                </div>
+                </motion.div>
             </div>
         </section>
     );
