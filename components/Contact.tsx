@@ -1,197 +1,240 @@
-'use client';
+"use client";
 
-import React, { useState } from 'react';
-import emailjs from '@emailjs/browser';
-import { motion } from 'framer-motion';
+import { useState, useEffect, useRef, type ChangeEvent, type FormEvent } from "react";
+import emailjs from "@emailjs/browser";
+import { motion } from "framer-motion";
+import anime from "animejs";
+import { transmitSuccess, transmitError } from "@/lib/retroAlert";
+import { useConsoleLogger } from "@/lib/ConsoleLogger";
 
 export default function Contact() {
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        message: '',
+  const { log } = useConsoleLogger();
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const btnTextRef = useRef<HTMLSpanElement>(null);
+  const btnRef = useRef<HTMLButtonElement>(null);
+
+  // Anime.js "TRANSMITTING..." text scramble animation
+  useEffect(() => {
+    if (!isSubmitting || !btnTextRef.current) return;
+
+    const el = btnTextRef.current;
+    const chars = "█▓▒░╔╗╚╝║═╠╣╬";
+    let frame = 0;
+
+    const anim = anime({
+      targets: {},
+      duration: Infinity,
+      loop: true,
+      update: () => {
+        frame++;
+        const dots = ".".repeat((frame % 9) / 3);
+        const scramble = Array.from({ length: 6 }, () =>
+          chars[Math.floor(Math.random() * chars.length)]
+        ).join("");
+        el.textContent = `>> ${scramble} TRANSMITTING${dots}`;
+      },
     });
 
-    const [isSubmitting, setIsSubmitting] = useState(false);
-    const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+    return () => anim.pause();
+  }, [isSubmitting]);
 
-    const handleSubmit = async (e: React.FormEvent) => {
-        e.preventDefault();
-        setIsSubmitting(true);
-        setSubmitStatus('idle');
+  const handleSubmit = async (e: FormEvent) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    log("FORM", "Uplink handshake initiated");
 
-        try {
-            // EmailJS configuration
-            // You'll need to replace these with your actual EmailJS credentials
-            const serviceId = 'service_4y39mid';
-            const templateId = 'template_sg3l0ak';
-            const publicKey = 'jV09gRvRyABD43Odt';
+    try {
+      const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID ?? "";
+      const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID ?? "";
+      const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY ?? "";
 
-            await emailjs.send(
-                serviceId,
-                templateId,
-                {
-                    from_name: formData.name,
-                    from_email: formData.email,
-                    message: formData.message,
-                    to_email: 'biswajeetrout2006@gmail.com',
-                },
-                publicKey
-            );
+      log("FORM", `Encrypting payload -> ${serviceId}`);
+      await emailjs.send(
+        serviceId,
+        templateId,
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+          to_email: "biswajeetrout2006@gmail.com",
+        },
+        publicKey,
+      );
 
-            setSubmitStatus('success');
-            setFormData({ name: '', email: '', message: '' }); // Clear form
-        } catch (error) {
-            console.error('Email send failed:', error);
-            setSubmitStatus('error');
-        } finally {
-            setIsSubmitting(false);
-        }
-    };
+      log("FORM", "Data packet delivered — ACK received");
+      await transmitSuccess();
+      setFormData({ name: "", email: "", message: "" });
+    } catch (error) {
+      log("ERROR", "Uplink terminated — packet lost");
+      console.error("Email send failed:", error);
+      await transmitError();
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
-    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-        setFormData({
-            ...formData,
-            [e.target.name]: e.target.value,
-        });
-    };
+  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
 
-    return (
-        <section id="contact" className="min-h-screen flex items-center justify-center py-20 px-4">
-            <div className="max-w-4xl mx-auto w-full">
-                <motion.h2
-                    className="text-4xl md:text-5xl font-bold mb-12 text-center"
-                    initial={{ opacity: 0, y: 30 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.6 }}
-                >
-                    Get In <span className="text-cyber-green">Touch</span>
-                </motion.h2>
+  return (
+    <section
+      id="contact"
+      className="min-h-screen pt-32 pb-20 px-4"
+    >
+      <div className="max-w-6xl mx-auto w-full">
+        <div className="max-w-4xl mx-auto w-full">
+        <div className="text-center mb-12">
+          <h2 className="section-heading text-3xl md:text-4xl text-foreground">
+            Uplink
+          </h2>
+        </div>
 
-                <div className="grid md:grid-cols-2 gap-8">
-                    {/* Contact Form */}
-                    <motion.div
-                        className="bg-card p-8 rounded-lg border border-gray-dark"
-                        initial={{ opacity: 0, x: -50 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.6, delay: 0.2 }}
-                    >
-                        <h3 className="text-2xl font-semibold mb-6 text-cyber-green">Ring me up</h3>
-                        <form onSubmit={handleSubmit} className="space-y-4">
-                            <div>
-                                <label htmlFor="name" className="block text-sm font-medium text-gray-light mb-2">
-                                    Name
-                                </label>
-                                <input
-                                    type="text"
-                                    id="name"
-                                    name="name"
-                                    value={formData.name}
-                                    onChange={handleChange}
-                                    required
-                                    className="w-full px-4 py-2 bg-background border border-gray-dark rounded-lg focus:outline-none focus:border-cyber-green transition-colors text-white"
-                                    placeholder="Your Name"
-                                />
-                            </div>
-                            <div>
-                                <label htmlFor="email" className="block text-sm font-medium text-gray-light mb-2">
-                                    Email
-                                </label>
-                                <input
-                                    type="email"
-                                    id="email"
-                                    name="email"
-                                    value={formData.email}
-                                    onChange={handleChange}
-                                    required
-                                    className="w-full px-4 py-2 bg-background border border-gray-dark rounded-lg focus:outline-none focus:border-cyber-green transition-colors text-white"
-                                    placeholder="your.email@example.com"
-                                />
-                            </div>
-                            <div>
-                                <label htmlFor="message" className="block text-sm font-medium text-gray-light mb-2">
-                                    Message
-                                </label>
-                                <textarea
-                                    id="message"
-                                    name="message"
-                                    value={formData.message}
-                                    onChange={handleChange}
-                                    required
-                                    rows={5}
-                                    className="w-full px-4 py-2 bg-background border border-gray-dark rounded-lg focus:outline-none focus:border-cyber-green transition-colors text-white resize-none"
-                                    placeholder="Your message..."
-                                />
-                            </div>
-                            <motion.button
-                                type="submit"
-                                disabled={isSubmitting}
-                                className="w-full px-6 py-3 bg-cyber-green text-background font-semibold rounded-lg hover:bg-white transition-all duration-300 transform disabled:opacity-50 disabled:cursor-not-allowed"
-                                whileHover={{ scale: 1.05 }}
-                                whileTap={{ scale: 0.95 }}
-                            >
-                                {isSubmitting ? 'Sending...' : 'Send Message'}
-                            </motion.button>
-
-                            {submitStatus === 'success' && (
-                                <motion.p
-                                    className="text-cyber-green text-sm mt-2"
-                                    initial={{ opacity: 0, y: 10 }}
-                                    animate={{ opacity: 1, y: 0 }}
-                                >
-                                    ✓ Message sent successfully!
-                                </motion.p>
-                            )}
-                            {submitStatus === 'error' && (
-                                <motion.p
-                                    className="text-red-500 text-sm mt-2"
-                                    initial={{ opacity: 0, y: 10 }}
-                                    animate={{ opacity: 1, y: 0 }}
-                                >
-                                    ✗ Failed to send. Please try again or email directly.
-                                </motion.p>
-                            )}
-                        </form>
-                    </motion.div>
-
-                    {/* Contact Information */}
-                    <div className="space-y-6">
-                        <motion.div
-                            className="bg-card p-8 rounded-lg border border-gray-dark hover:border-cyber-green transition-all duration-300 h-full"
-                            initial={{ opacity: 0, x: 50 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 0.6, delay: 0.4 }}
-                        >
-                            <h3 className="text-2xl font-semibold mb-6 text-cyber-green">Contact Information</h3>
-                            <div className="space-y-4">
-                                <div className="flex items-start">
-                                    <span className="text-cyber-green mr-3 mt-1">📧</span>
-                                    <div>
-                                        <p className="text-sm text-gray-light">Email</p>
-                                        <p className="text-white">biswajeetrout2006@gmail.com</p>
-                                    </div>
-                                </div>
-                                <div className="flex items-start">
-                                    <span className="text-cyber-green mr-3 mt-1">📍</span>
-                                    <div>
-                                        <p className="text-sm text-gray-light">Location</p>
-                                        <p className="text-white">Thane,India</p>
-                                    </div>
-                                </div>
-                                <div className="flex items-start">
-                                    <span className="text-cyber-green mr-3 mt-1">💼</span>
-                                    <div>
-                                        <p className="text-sm text-gray-light">Status</p>
-                                        <p className="text-white">Available for Internships</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </motion.div>
-                    </div>
-                </div>
+        <div className="grid md:grid-cols-2 gap-8">
+          {/* Transmission Form */}
+          <motion.div
+            className="uplink-card"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.4, delay: 0.2 }}
+          >
+            <div className="uplink-card-header">
+              <span className="uplink-card-indicator" />
+              <span className="uplink-card-label">SECURE CHANNEL OPEN</span>
             </div>
-        </section>
-    );
+
+            <div className="uplink-card-body">
+              <h3 className="uplink-card-title">&gt; Encode Transmission</h3>
+
+              <form onSubmit={handleSubmit} className="uplink-form">
+                <div className="uplink-field">
+                  <label htmlFor="name" className="uplink-label">
+                    CALLSIGN
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    required
+                    className="uplink-input"
+                    placeholder="ENTER_NAME"
+                  />
+                  <div className="uplink-line" />
+                </div>
+
+                <div className="uplink-field">
+                  <label htmlFor="email" className="uplink-label">
+                    UPLINK ADDRESS
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
+                    className="uplink-input"
+                    placeholder="NODE@DOMAIN.COM"
+                  />
+                  <div className="uplink-line" />
+                </div>
+
+                <div className="uplink-field">
+                  <label htmlFor="message" className="uplink-label">
+                    PAYLOAD
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    required
+                    rows={5}
+                    className="uplink-input uplink-textarea"
+                    placeholder="ENCODE MESSAGE..."
+                  />
+                  <div className="uplink-line" />
+                </div>
+
+                <button
+                  ref={btnRef}
+                  type="submit"
+                  disabled={isSubmitting}
+                  className="uplink-transmit-btn"
+                >
+                  <span ref={btnTextRef} className="uplink-transmit-text">
+                    {isSubmitting
+                      ? ">> TRANSMITTING..."
+                      : ">> TRANSMIT DATA"}
+                  </span>
+                </button>
+              </form>
+            </div>
+          </motion.div>
+
+          {/* Node Details */}
+          <motion.div
+            className="uplink-card"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.4, delay: 0.4 }}
+          >
+            <div className="uplink-card-header">
+              <span className="uplink-card-indicator" />
+              <span className="uplink-card-label">NODE INFO</span>
+            </div>
+
+            <div className="uplink-card-body">
+              <h3 className="uplink-card-title">&gt; Destination Node</h3>
+
+              <div className="uplink-node-info">
+                <div className="uplink-node-row">
+                  <span className="uplink-node-key">EMAIL_UPLINK:</span>
+                  <span className="uplink-node-val">biswajeetrout2006@gmail.com</span>
+                </div>
+                <div className="uplink-node-row">
+                  <span className="uplink-node-key">COORDINATES:</span>
+                  <span className="uplink-node-val">Thane, India</span>
+                </div>
+                <div className="uplink-node-row">
+                  <span className="uplink-node-key">STATUS:</span>
+                  <span className="uplink-node-val uplink-node-val--green">Available for Internships</span>
+                </div>
+                <div className="uplink-node-row">
+                  <span className="uplink-node-key">ENCRYPTION:</span>
+                  <span className="uplink-node-val">AES-256-GCM</span>
+                </div>
+                <div className="uplink-node-row">
+                  <span className="uplink-node-key">PROTOCOL:</span>
+                  <span className="uplink-node-val">SECURE UPLINK v3.1</span>
+                </div>
+                <div className="uplink-node-divider" />
+                <div className="uplink-node-row">
+                  <span className="uplink-node-key">LATENCY:</span>
+                  <span className="uplink-node-val">12ms</span>
+                </div>
+                <div className="uplink-node-row">
+                  <span className="uplink-node-key">PACKET_LOSS:</span>
+                  <span className="uplink-node-val">0.0%</span>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+        </div>
+      </div>
+    </section>
+  );
 }

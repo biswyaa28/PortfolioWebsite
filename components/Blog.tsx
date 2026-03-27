@@ -1,60 +1,93 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
+
+const BLOG_TAGS = [
+  "Cybersecurity Tips",
+  "C++ Tutorials",
+  "Network Security",
+  "Project Walkthroughs",
+];
 
 export default function Blog() {
-    return (
-        <section id="blog" className="min-h-screen flex items-center justify-center py-20 px-4">
-            <div className="max-w-4xl mx-auto w-full text-center">
-                <motion.h2
-                    className="text-4xl md:text-5xl font-bold mb-8"
-                    initial={{ opacity: 0, y: 30 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.6 }}
-                >
-                    <span className="text-cyber-green">Blog</span> & Articles
-                </motion.h2>
+  return (
+    <section
+      id="blog"
+      className="min-h-screen flex items-center justify-center py-20 px-4"
+    >
+      <div className="max-w-6xl mx-auto w-full">
+        {/* Breadcrumb */}
+        <div className="breadcrumb-trail">
+          <span className="breadcrumb-item">ROOT</span>
+          <span className="breadcrumb-sep">&gt;</span>
+          <span className="breadcrumb-item breadcrumb-item--active">BLOG</span>
+        </div>
 
-                <motion.div
-                    className="bg-card p-12 rounded-lg border border-gray-dark"
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: 0.2 }}
-                    whileHover={{ borderColor: "#00ff9d" }}
-                >
-                    <motion.div
-                        className="mb-6"
-                        animate={{ y: [0, -10, 0] }}
-                        transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-                    >
-                        <span className="text-6xl">📝</span>
-                    </motion.div>
+        <div className="text-center mb-12">
+          <h2 className="section-heading text-3xl md:text-4xl text-foreground">
+            Blog & Articles
+          </h2>
+          <span className="inventory-count">SOON</span>
+        </div>
 
-                    <h3 className="text-2xl font-semibold mb-4 text-white">Coming Soon</h3>
-                    <p className="text-gray-light mb-6 max-w-2xl mx-auto">
-                        I&apos;m working on sharing my knowledge and experiences in cybersecurity, programming,
-                        and technology. Stay tuned for insightful articles and tutorials!
-                    </p>
-
-                    <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-light">
-                        {["Cybersecurity Tips", "C++ Tutorials", "Network Security", "Project Walkthroughs"].map((tag, index) => (
-                            <motion.span
-                                key={index}
-                                className="px-4 py-2 bg-background rounded-full border border-gray-dark cursor-default"
-                                initial={{ opacity: 0, x: -20 }}
-                                whileInView={{ opacity: 1, x: 0 }}
-                                viewport={{ once: true }}
-                                transition={{ delay: 0.4 + (index * 0.1) }}
-                                whileHover={{ scale: 1.1, borderColor: "#00ff9d", color: "#fff" }}
-                            >
-                                {tag}
-                            </motion.span>
-                        ))}
-                    </div>
-                </motion.div>
+        <motion.div
+          className="max-w-3xl mx-auto"
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
+          <div className="system-window">
+            <div className="window-title-bar">
+              <div className="flex gap-1.5">
+                <div className="window-control-btn" />
+                <div className="window-control-btn" />
+              </div>
+              <span className="window-title-text">~/blog -- coming_soon</span>
             </div>
-        </section>
-    );
+
+            <div className="p-12 text-center">
+              {/* Skeleton preview cards */}
+              <div className="grid md:grid-cols-2 gap-4 mb-10">
+                {[0, 1].map((i) => (
+                  <div
+                    key={`skeleton-${i}`}
+                    className="border border-stone-800 bg-stone-900/50 p-4"
+                  >
+                    <div className="codex-skeleton-line w-3/4 mb-3" />
+                    <div className="codex-skeleton-line w-full" />
+                    <div className="codex-skeleton-line codex-skeleton-line--short" />
+                    <div className="flex gap-2 mt-4">
+                      <div className="h-5 w-16 bg-stone-800" />
+                      <div className="h-5 w-12 bg-stone-800" />
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <h3 className="text-2xl font-semibold mb-4 font-mono text-foreground">
+                Coming Soon
+              </h3>
+              <p className="text-gray-light mb-8 max-w-xl mx-auto leading-relaxed">
+                I&apos;m working on sharing my knowledge and experiences in
+                cybersecurity, programming, and technology. Stay tuned for
+                insightful articles and tutorials!
+              </p>
+
+              <div className="flex flex-wrap justify-center gap-3">
+                {BLOG_TAGS.map((tag) => (
+                  <span
+                    key={tag}
+                    className="command-block"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
 }

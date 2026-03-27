@@ -1,145 +1,154 @@
-'use client';
+"use client";
 
-import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
+import { useEffect, useRef } from "react";
+import anime from "animejs";
 
 export default function Hero() {
-    const scrollToProjects = () => {
-        const element = document.getElementById('projects');
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
+  const titleRef = useRef<HTMLHeadingElement>(null);
+  const cursorRef = useRef<HTMLSpanElement>(null);
+  const quoteRef = useRef<HTMLParagraphElement>(null);
 
-    const [particles, setParticles] = useState<{ x: number; y: number; duration: number; delay: number }[]>([]);
+  // Typewriter effect using Anime.js
+  useEffect(() => {
+    const el = titleRef.current;
+    const cursor = cursorRef.current;
+    const quote = quoteRef.current;
+    if (!el || !cursor) return;
 
-    useEffect(() => {
-        const newParticles = Array.from({ length: 20 }).map(() => ({
-            x: Math.random() * window.innerWidth,
-            y: Math.random() * window.innerHeight,
-            duration: Math.random() * 10 + 10,
-            delay: Math.random() * 5
-        }));
-        setParticles(newParticles);
-    }, []);
+    const fullText = "Biswajeet Rout";
+    const quoteText = '> "Securing the Digital Frontier, One Line of Code at a Time."';
+    el.textContent = "";
+    el.style.visibility = "visible";
+    if (quote) {
+      quote.textContent = "";
+      quote.style.visibility = "visible";
+    }
 
-    return (
-        <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
-            {/* Animated background grid */}
-            <motion.div
-                className="absolute inset-0 bg-gradient-to-b from-background via-background to-card opacity-50"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 0.5 }}
-                transition={{ duration: 1 }}
-            >
-                <div className="absolute inset-0" style={{
-                    backgroundImage: 'linear-gradient(#00ff9d 1px, transparent 1px), linear-gradient(90deg, #00ff9d 1px, transparent 1px)',
-                    backgroundSize: '50px 50px',
-                    opacity: 0.03,
-                }}></div>
-            </motion.div>
+    // Animate the cursor blink
+    anime({
+      targets: cursor,
+      opacity: [1, 0],
+      duration: 400,
+      easing: "steps(2)",
+      loop: true,
+      direction: "alternate",
+    });
 
-            {/* Floating particles */}
-            {particles.map((particle, i) => (
-                <motion.div
-                    key={i}
-                    className="absolute w-1 h-1 bg-cyber-green rounded-full"
-                    initial={{
-                        x: particle.x,
-                        y: particle.y,
-                        opacity: 0
-                    }}
-                    animate={{
-                        y: [null, Math.random() * window.innerHeight], // This might still be risky for re-renders, but usually safe if just animation target. Better to use strict value.
-                        opacity: [0, 0.5, 0]
-                    }}
-                    transition={{
-                        duration: particle.duration,
-                        repeat: Infinity,
-                        ease: "linear",
-                        delay: particle.delay
-                    }}
-                />
-            ))}
+    // Typewriter: reveal one character at a time
+    const timeline = anime.timeline({ delay: 300 });
 
-            <div className="relative z-10 text-center px-4">
-                <motion.h1
-                    className="text-5xl md:text-7xl font-bold mb-4"
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8, ease: "easeOut" }}
-                >
-                    <motion.span
-                        className="text-white inline-block"
-                        initial={{ opacity: 0, x: -20 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ delay: 0.2, duration: 0.6 }}
-                    >
-                        Biswajeet
-                    </motion.span>{' '}
-                    <motion.span
-                        className="text-cyber-green inline-block"
-                        initial={{ opacity: 0, x: 20 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ delay: 0.4, duration: 0.6 }}
-                    >
-                        Rout
-                    </motion.span>
-                </motion.h1>
+    for (let i = 0; i < fullText.length; i++) {
+      timeline.add({
+        targets: {},
+        duration: 80 + Math.random() * 40,
+        easing: "linear",
+        complete: () => {
+          el.textContent = fullText.slice(0, i + 1);
+        },
+      });
+    }
 
-                <motion.h2
-                    className="text-2xl md:text-3xl text-gray-light mb-6"
-                    initial={{ opacity: 0, y: 30 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.6, duration: 0.8 }}
-                >
-                    Cybersecurity Engineer & BTech CSE Student
-                </motion.h2>
+    // After name finishes, pause then type the quote
+    timeline.add({
+      targets: {},
+      duration: 400,
+      easing: "linear",
+    });
 
-                <motion.p
-                    className="text-lg md:text-xl text-gray-light mb-8 max-w-2xl mx-auto font-mono"
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 0.8, duration: 1 }}
-                >
-                    &quot;Securing the Digital Frontier, One Line of Code at a Time.&quot;
-                </motion.p>
+    if (quote) {
+      for (let i = 0; i < quoteText.length; i++) {
+        timeline.add({
+          targets: {},
+          duration: 25 + Math.random() * 20,
+          easing: "linear",
+          complete: () => {
+            if (quote) quote.textContent = quoteText.slice(0, i + 1);
+          },
+        });
+      }
+    }
 
-                <motion.button
-                    onClick={scrollToProjects}
-                    className="px-8 py-3 bg-cyber-green text-background font-semibold rounded-lg transition-all duration-300"
-                    initial={{ opacity: 0, scale: 0.8 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ delay: 1, duration: 0.5 }}
-                    whileHover={{
-                        scale: 1.05,
-                        boxShadow: "0 0 20px rgba(0, 255, 157, 0.5)"
-                    }}
-                    whileTap={{ scale: 0.95 }}
-                >
-                    View My Work
-                </motion.button>
-            </div>
-
-            {/* Scroll indicator */}
-            <motion.div
-                className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
-                initial={{ opacity: 0, y: -20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 1.2, duration: 0.8 }}
-            >
-                <motion.div
-                    className="w-6 h-10 border-2 border-cyber-green rounded-full flex justify-center"
-                    animate={{ y: [0, 10, 0] }}
-                    transition={{ duration: 2, repeat: Infinity }}
-                >
-                    <motion.div
-                        className="w-1 h-3 bg-cyber-green rounded-full mt-2"
-                        animate={{ opacity: [1, 0, 1] }}
-                        transition={{ duration: 2, repeat: Infinity }}
-                    />
-                </motion.div>
-            </motion.div>
-        </section>
+    // After typing finishes, keep cursor blinking for a bit then stop
+    timeline.add(
+      {
+        targets: cursor,
+        opacity: 0,
+        duration: 2000,
+        delay: 1500,
+        easing: "linear",
+        complete: () => {
+          cursor.style.display = "none";
+        },
+      },
+      "+=200"
     );
+  }, []);
+
+  const scrollToProjects = () => {
+    const element = document.getElementById("projects");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  return (
+    <section
+      id="home"
+      className="relative flex min-h-screen items-center justify-center overflow-hidden"
+    >
+      {/* System Window Container */}
+      <div className="system-window relative z-10 w-full max-w-4xl mx-4">
+        {/* Window Title Bar */}
+        <div className="window-title-bar">
+          <div className="flex gap-1.5">
+            <div className="window-control-btn" />
+            <div className="window-control-btn" />
+            <div className="window-control-btn window-control-btn--close" />
+          </div>
+          <span className="window-title-text">~/biswajeet-portfolio -- bash</span>
+        </div>
+
+        {/* Window Body */}
+        <div className="window-body-scanlines relative p-10 md:p-16 text-center">
+          {/* Title with typewriter */}
+          <h1
+            ref={titleRef}
+            className="mb-4 text-4xl font-bold md:text-6xl lg:text-7xl text-cyber-blue font-mono min-h-[3.5rem] md:min-h-[5rem]"
+            style={{ visibility: "hidden" }}
+          >
+            Biswajeet Rout
+          </h1>
+          <span
+            ref={cursorRef}
+            className="typewriter-cursor"
+            style={{ height: "1em", display: "inline-block", verticalAlign: "text-bottom" }}
+          />
+
+          {/* Subtitle with glitch/flicker */}
+          <h2
+            className="glitch-flicker mb-6 text-lg text-cyber-blue md:text-2xl mt-4 font-mono"
+            data-text="Cybersecurity Engineer & BTech CSE Student"
+          >
+            Cybersecurity Engineer & BTech CSE Student
+          </h2>
+
+          {/* Quote — typed character-by-character after name finishes */}
+          <p
+            ref={quoteRef}
+            className="mx-auto mb-10 max-w-xl text-sm text-gray-light font-mono md:text-base leading-relaxed min-h-[1.5rem]"
+            style={{ visibility: "hidden" }}
+          />
+
+          {/* 8-bit CTA Button */}
+          <button
+            onClick={scrollToProjects}
+            className="btn-8bit hero-cta-btn"
+            type="button"
+          >
+            View My Work
+          </button>
+        </div>
+      </div>
+    </section>
+  );
 }
